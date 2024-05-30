@@ -1,0 +1,57 @@
+.body{
+    position: fixed;
+    top: 8vh;
+    flex: 0.85;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1%;
+    align-items: flex-start;
+    overflow: auto;
+    margin-left: 1%;
+}
+.My__messages{
+    max-width: fit-content;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 8px;
+    font-size: large;
+    margin: 1%;
+}
+.others__messsages{
+    display: flex;
+    color: whitesmoke;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: fit-content;    
+    margin-bottom: 2%;
+    padding: 1%;
+    font-size: large;
+}
+.others__messagesImg{
+    flex: 0.30;
+    width: 30%;
+    height: 100%;
+}
+.others__messsages img {
+    width: 100%;
+    clip-path: circle();
+}
+.others__messagesbox{
+    flex: 0.70;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-top: 1%;
+    margin-left: 1%;
+    background-color: rgb(66, 66, 70);
+    display: flex;
+    flex-direction: column;
+}
+.others__messagesbox p{
+    font-size: medium;
+    font-weight: 500;
+}

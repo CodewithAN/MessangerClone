@@ -1,0 +1,25 @@
+.Welcome{
+    position: fixed;
+    top: 10vh;
+    flex: 0.90;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.Welcome h1 {
+    background: linear-gradient(rgb(255, 143, 178) 0%, rgb(167, 151, 255) 50%, rgb(0, 229, 255) 100%);
+    color: rgb(0, 44, 127);
+    border-radius: 10px;
+    padding: 0.5%;
+}
+.Welcome h2 {
+    margin-top: 1%;
+    background: linear-gradient(rgb(120, 67, 84) 0%, rgb(124, 119, 152) 50%, rgb(83, 175, 185) 100%);
+    color: rgb(0, 44, 127);
+    border-radius: 10px;
+    padding: 0.5%;
+}

@@ -1,0 +1,69 @@
+.top{
+    position: fixed;
+    top: 0;
+    flex: 0.08;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+   /* background: linear-gradient(rgb(255, 143, 178) 0%, rgb(167, 151, 255) 50%, rgb(0, 229, 255) 100%);*/
+   font-size: small;
+   background: linear-gradient(rgb(241,77,136) 0%, rgb(152,52,247) 50%,rgb(50,118,247) 100% );
+}
+.Text{
+    flex: 0.20;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ImgandBtn{
+    flex: 0.80;
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.img{
+    flex: 0.80;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.img img{
+    width: 10%;
+    height: 90%;
+    clip-path: circle();
+}
+.profile{
+    clip-path: circle();
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    flex: 0.20;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn button{
+    width: 85%;
+    height: 50%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 900;
+}
